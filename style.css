@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgba(73, 15, 15, 0.755);
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+#logo {
+    margin: 10px 78px;
+    position: absolute;
+}
+
+#logo img {
+    height: 37px;
+    margin: 3px 6px;
+    border-radius: 16px;
+    width: 40px;
+    z-index: 9999;
+}
+
+#navbar {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+
+
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(48, 20, 20);
+}
+
+#navbar ul {
+    display: flex;
+    font-family: 'Overpass', sans-serif;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.9rem;
+    margin: 14px;
+}
+
+#navbar ul li a {
+    color: white;
+
+    display: block;
+    padding: 3px 10px;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: white;
+    background: rgb(0, 0, 0);
+
+}
+
+
+#calculator {
+    background-color: #988080;
+    box-shadow: 19px 25px 45px #ef09e8;
+    padding: 50px 420px;
+    margin: 20px;
+    border-radius: 150px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.3rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: black;
+    font-family: 'Overpass', cursive;
+}
+
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 25px;
+    font-family: 'Overpass', serif;
+    margin-bottom: 10px;
+}
+
+.len {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+
+input[type="number"],
+select {
+    width: 87%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffd5d5;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: bold;
+}
+
+#result {
+    width: 80%;
+    padding: 21px;
+    border-radius: 5px;
+    background-color: #ffdfdf;
+    color: #000000;
+    margin-bottom: 24px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Overpass', sans-serif;
+}
+
+.main-btn {
+    text-align: center;
+}
+
+.btn {
+    background-color: rgb(80, 54, 188);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1.0rem;
+    padding: 10px 20px;
+    text-align: center;
+    margin-right: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0b118d;
+    font-size: 1.1rem;
+}
+
+
+footer {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(218, 202, 202);
+    padding: 14px ;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="temperature.js"></script>
+    <link rel="icon" type="image/x-icon" href="icons8-bmo-32.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav-container">
+            <!-- logo -->
+            <div id="logo">
+                <img src="icons8-bmo-32.png" alt="unit-converter">
+            </div>
+            <nav id="navbar">
+                <ul>
+                    
+                    <li class="item"><a href="index.html">Temparature</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div id="calculator">
+                <h1>Temperature Converter</h1><br>
+                <div class="maincontainer">
+                    <form class="len">
+                        <div class="box">
+                            <div class="items">
+                                <label>From Unit:</label>
+                                <select id="fromUnit">
+                                    <option value="1">Celsius</option>
+                                    <option value="2">Kelvin</option>
+                                    <option value="3">Fahrenheit</option>
+                                </select>
+                            </div>
+                            <div class="items">
+                                <label>To Unit:</label>
+                                <select id="toUnit">
+                                    <option value="1">Celsius</option>
+                                    <option value="2">Kelvin</option>
+                                    <option value="3">Fahrenheit</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="items">
+                                <label>Enter Temperature:</label>
+                                <input type="number" id="Input">
+                            </div>
+                            <div class="items">
+                                <label>Result:</label>
+                                <div id="result"></div>
+                            </div>
+                        </div>
+                </div>
+                <div class="main-btn">
+                    <button class="btn" id = "resetBtn">Reset</button>
+                    <button class="btn" id = "calculateBtn">Calculate</button>
+                    <br><br><br>
+                </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+</script>
+    <footer>
+        <div class="foot">
+            Copyright &copy;2023| All rights reserved!
+        </div>
+    </footer>
+</body>
+
+</html>
